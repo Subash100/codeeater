@@ -26,7 +26,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "count",
+				"name": "length",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -39,7 +39,20 @@
 			},
 			{
 				"inputs": [],
-				"name": "loop",
+				"name": "popElement",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "item",
+						"type": "uint256"
+					}
+				],
+				"name": "pushElement",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -58,7 +71,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"loops.sol": "local"
+			"dynamic_sized_array.sol": "array"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -72,12 +85,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"loops.sol": {
-			"keccak256": "0xc5fb4b32e865a12e2a80fbd7b3384044d7beb4190e56a33cab7b647e9799f02e",
+		"dynamic_sized_array.sol": {
+			"keccak256": "0x6188e99d289d8a03f2071c7d47d5d02e711fb3336857db3f4504285a6fdf018d",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://457c36947eaa94002cf62de1a64136c65e8199fc63a4b5844f739ffe3ee97cc1",
-				"dweb:/ipfs/QmbsoaB7kuvXDKeaYMfVTVXj9hdNxg4Tt5dFrU5zUgUpME"
+				"bzz-raw://8f96c8674fd2266477303e2dd130f208b0f82dc8dc7750cf9f039ba5dba75b42",
+				"dweb:/ipfs/Qmc8H2eJHUwNQsy3EVgpoDPXE1m7sDY4J3PbE9BCavV8y6"
 			]
 		}
 	},
