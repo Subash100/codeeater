@@ -6,6 +6,20 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"name": "mem",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sto",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -13,7 +27,7 @@
 						"type": "uint256"
 					}
 				],
-				"name": "roll_no",
+				"name": "students",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -22,24 +36,6 @@
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "keys",
-						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "value",
-						"type": "string"
-					}
-				],
-				"name": "setter",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -56,7 +52,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"mapping.sol": "local"
+			"memory_vs_storage.sol": "local"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -70,12 +66,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"mapping.sol": {
-			"keccak256": "0x04b6555c8a7e48d352d43878f91f4f931757afd45455e4e016e32131097e0684",
+		"memory_vs_storage.sol": {
+			"keccak256": "0x492aedbddf3d6a49c84bda973a3ba780076965a3110f0b71f4a52e6355451ddf",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://79125fc8fce1615ea98b05678862964706650e0f354b1a7d583edae7ab4cc46e",
-				"dweb:/ipfs/QmNVriH5785JqiPzCqYrAjYTfHE6G5GCibFjjfU3mpc81b"
+				"bzz-raw://1a6a848eaa77bf0ed64ae893ce5fcf9d19c19e437f858d8cc6a7ecfede83d43f",
+				"dweb:/ipfs/Qmf5dGANANYiM3uV83qMDwmUhVnvRGELMdGT2Y7WFmruPm"
 			]
 		}
 	},
