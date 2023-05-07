@@ -4,7 +4,45 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "roll_no",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "keys",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "value",
+						"type": "string"
+					}
+				],
+				"name": "setter",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -18,7 +56,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"structure.sol": "local"
+			"mapping.sol": "local"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -32,12 +70,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"structure.sol": {
-			"keccak256": "0x318071d1fa2a23a9b98c4d3492a974b9f27254a12161eb0a0d7cabf857f971c0",
+		"mapping.sol": {
+			"keccak256": "0x04b6555c8a7e48d352d43878f91f4f931757afd45455e4e016e32131097e0684",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://b042a8da97d35662c2914022320754717dfd6e959a1821c1055abc3d1e67533f",
-				"dweb:/ipfs/QmRWHa9s6mwkp7vG7pC692Yfrbjmn2cgWVHjgmLuFAHXA8"
+				"bzz-raw://79125fc8fce1615ea98b05678862964706650e0f354b1a7d583edae7ab4cc46e",
+				"dweb:/ipfs/QmNVriH5785JqiPzCqYrAjYTfHE6G5GCibFjjfU3mpc81b"
 			]
 		}
 	},
