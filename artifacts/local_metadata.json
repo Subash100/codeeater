@@ -4,40 +4,7 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "a",
-						"type": "uint256"
-					}
-				],
-				"name": "check",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "value",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			}
-		],
+		"abi": [],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -51,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"booldata_type.sol": "local"
+			"structure.sol": "local"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -65,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"booldata_type.sol": {
-			"keccak256": "0xe00e203f869757e586e666003fbec8a3c8dc7b58d63705a018d4d7ad99b03431",
+		"structure.sol": {
+			"keccak256": "0x318071d1fa2a23a9b98c4d3492a974b9f27254a12161eb0a0d7cabf857f971c0",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://df773be1fe94c60e67a921e00c0181811ecbeb6f32abad3b86db5944b34e1f8a",
-				"dweb:/ipfs/QmPL8qo4u1qWW37HeJPJUP6Sy6LC4epjqHwqV7bPyeTQvp"
+				"bzz-raw://b042a8da97d35662c2914022320754717dfd6e959a1821c1055abc3d1e67533f",
+				"dweb:/ipfs/QmRWHa9s6mwkp7vG7pC692Yfrbjmn2cgWVHjgmLuFAHXA8"
 			]
 		}
 	},
