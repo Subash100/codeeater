@@ -6,50 +6,26 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "data",
+				"inputs": [],
+				"name": "demo",
 				"outputs": [
 					{
-						"internalType": "string",
-						"name": "name",
-						"type": "string"
+						"internalType": "uint256",
+						"name": "block_no",
+						"type": "uint256"
 					},
 					{
 						"internalType": "uint256",
-						"name": "class",
+						"name": "timestamp",
 						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "msgSender",
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_roll",
-						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "_name",
-						"type": "string"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_class",
-						"type": "uint256"
-					}
-				],
-				"name": "setter",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -66,7 +42,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"mapping_with_structure.sol": "local"
+			"global_variable.sol": "local"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -80,12 +56,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"mapping_with_structure.sol": {
-			"keccak256": "0xe6733647074a7543dd7de48c85674da3d94e1e9ce1d44eb6bd97da29e7501e18",
+		"global_variable.sol": {
+			"keccak256": "0x7e885da81b6ccfa54b09bf41eb61540968da59b96020cca84c67ba7ccff90450",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://30749a55fde67fd8bc4b0b9f0cf54261c5e59435e839fb63995e7f3f2fff29af",
-				"dweb:/ipfs/QmPSmCUi3qVngsPWEzY5c1nk4txcs2bseocpQ47Rm3stRP"
+				"bzz-raw://597066213e141da090c5fb952d93fca04aa7b2f2a9ae9bca7da1142af870bd8b",
+				"dweb:/ipfs/QmSjA6AFiCzLsrBzkCnoNdLUzBwRSaM9ztazE8jgSRshF8"
 			]
 		}
 	},
