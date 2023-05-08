@@ -1,24 +1,10 @@
 {
 	"compiler": {
-		"version": "0.8.19+commit.7dd6d404"
+		"version": "0.8.17+commit.8df45f5f"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
-			{
-				"inputs": [],
-				"name": "mem",
-				"outputs": [],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "sto",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
 			{
 				"inputs": [
 					{
@@ -27,15 +13,43 @@
 						"type": "uint256"
 					}
 				],
-				"name": "students",
+				"name": "data",
 				"outputs": [
 					{
 						"internalType": "string",
-						"name": "",
+						"name": "name",
 						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "class",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_roll",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_class",
+						"type": "uint256"
+					}
+				],
+				"name": "setter",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -52,9 +66,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"memory_vs_storage.sol": "local"
+			"mapping_with_structure.sol": "local"
 		},
-		"evmVersion": "paris",
+		"evmVersion": "london",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -66,12 +80,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"memory_vs_storage.sol": {
-			"keccak256": "0x492aedbddf3d6a49c84bda973a3ba780076965a3110f0b71f4a52e6355451ddf",
+		"mapping_with_structure.sol": {
+			"keccak256": "0xe6733647074a7543dd7de48c85674da3d94e1e9ce1d44eb6bd97da29e7501e18",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://1a6a848eaa77bf0ed64ae893ce5fcf9d19c19e437f858d8cc6a7ecfede83d43f",
-				"dweb:/ipfs/Qmf5dGANANYiM3uV83qMDwmUhVnvRGELMdGT2Y7WFmruPm"
+				"bzz-raw://30749a55fde67fd8bc4b0b9f0cf54261c5e59435e839fb63995e7f3f2fff29af",
+				"dweb:/ipfs/QmPSmCUi3qVngsPWEzY5c1nk4txcs2bseocpQ47Rm3stRP"
 			]
 		}
 	},
