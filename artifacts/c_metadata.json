@@ -7,7 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "bx",
+				"name": "cx",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -16,32 +16,6 @@
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "f1",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "f4",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -58,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"visibility_public_private_internal_external.sol": "demo"
+			"visibility_public_private_internal_external.sol": "c"
 		},
 		"evmVersion": "london",
 		"libraries": {},

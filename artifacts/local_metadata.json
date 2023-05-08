@@ -7,7 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "getBalance",
+				"name": "f1",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -15,21 +15,20 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "payEther",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "sendEtherAccount",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "f4",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -46,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contract_balance.sol": "local"
+			"visibility_public_private_internal_external.sol": "local"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -60,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contract_balance.sol": {
-			"keccak256": "0x47658bf3da90eb9d2782e8453ce0186fd8cb1a5ae7849dc1dec7c80ea407c06f",
+		"visibility_public_private_internal_external.sol": {
+			"keccak256": "0xbfdb6f003dc3dcb1d48274633c0fd6987bc0be6db3f052864123683a7467ec4f",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://e467509ca8429a00035e59a2d0b6af2cc64b3695da30383383e6193f240fb2c3",
-				"dweb:/ipfs/QmXRUtwkPSFMYcvnaxf4hWfuQw9FGLY7GPm8EuYhKuQTX2"
+				"bzz-raw://2682d16c978df05856d45cf8b3fdd027e5330e3940049a563f9c72211b64f3d9",
+				"dweb:/ipfs/QmZqC5tvuKi13L6Vd9oKDnNBYJVSD2W3cEt1Ztt499vfFK"
 			]
 		}
 	},
